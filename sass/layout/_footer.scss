@@ -1,0 +1,125 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  background-color: var(--secondary-background-color);
+  color: var(--primary-white-color);
+
+  &__logo {
+    margin-bottom: 20px;
+    color: var(--primary-white-color);
+  }
+
+  &__page {
+    display: flex;
+    align-items: baseline;
+  }
+
+  &__connect-item {
+    &:not(:last-child) {
+    margin-bottom: 9px;}
+  }
+  
+  &__connect-link {
+    margin-bottom: 60px;
+    color: var(--footer-text-color);
+    text-decoration: none;
+    &:hover,
+    &:focus {
+      color: var(--accent-color);
+    }
+  }
+  &__central-part {
+    margin-left: 70px;
+  }
+
+  &__join {
+    margin-bottom: 20px;
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--primary-white-color);
+  }
+  &__form-part {
+    margin-left: auto;
+  }
+
+  &__form-part {
+    margin-left: auto;
+  }
+
+  &__form-title {
+    margin-bottom: 20px;
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+  }
+  
+  &__form {
+    display: flex;
+  }
+
+  &__form-mail {
+    height: 50px;
+    width: 358px;
+    padding: 15px 16px;
+    color: var(--primary-white-color);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: transparent;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    &:focus {
+      outline: none;
+    }
+    &::placeholder {
+      font-size: 16px;
+      line-height: 20px;
+      color: rgba(117, 117, 117, 0.5);
+    }
+  }
+
+  &__form-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 200px;
+    border: 0;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(77, 6, 6, 0.15);
+    text-align: center;
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    font-weight: 700;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+  }
+  
+  &__form-btn-icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+    fill: var(--primary-white-color);
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+/* Footer form */
+
+
+
+
+
+
