@@ -18,6 +18,24 @@
   <body>
     <header class="header">
       <div class="header__navigation container">
+
+        <button
+type="button"
+class="header__menu-button is-open"
+aria-expanded="false"
+aria-controls="menu-container"
+data-menu-button
+>
+<svg
+  width="40"
+  height="40"
+  aria-label="Переключатель мобильного меню"
+>
+  <use class="header__icon-cross" href="./img/sprite.svg#icon-menu"></use>
+  <use class="header__icon-menu" href="./img/sprite.svg#menu"></use>
+</svg>
+</button>
+<div class="header__menu-container" id="menu-container" data-menu>
         <nav class="header__site-nav">
           <a href="./index.html" class="logo"
             ><span class="logo__text">Web</span>Studio</a
@@ -53,6 +71,7 @@
             >
           </li>
         </ul>
+</div>
       </div>
     </header>
     <main>
@@ -672,7 +691,7 @@
        
       </div>
     </div>
-
+    <script src="./js/menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>
