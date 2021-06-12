@@ -1,26 +1,57 @@
 .portfolio {
   &__filter {
     display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
   }
 
-  &__filter-btn + &__filter-btn {
-    margin-left: 8px;
+  &__filter-btn {
+    margin-bottom: 8px;
+  }
+
+  &__filter-btn:not(:last-child) {
+    margin-right: 8px;
+  }
+
+  @media screen and (min-width: 768px) {
+    &__filter {
+      justify-content: center;
+    margin-bottom: 30px;
+    }
+    &__filter-btn {
+      margin-bottom: 0;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    &__filter {
+      margin-bottom: 50px;
+    }
   }
 
   &__examples {
     display: flex;
     flex-wrap: wrap;
-  
     margin-top: -30px;
     margin-left: -30px;
   }
 
   &__examples-card {
-    flex-basis: calc(100% / 3 - 30px);
+    flex-basis: calc(100% - 30px);
     margin-top: 30px;
     margin-left: 30px;
+  }
+
+  @media screen and (min-width: 768px) {
+    &__examples-card {
+      flex-basis: calc((100% - 30px * 2) / 2);
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    &__examples-card {
+      flex-basis: calc((100% - 30px * 3) / 3);
+    }
   }
 
   &__examples-link {

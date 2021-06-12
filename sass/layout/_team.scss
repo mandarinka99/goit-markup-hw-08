@@ -3,43 +3,34 @@
     margin-bottom: 50px;
   }
 
-  @media screen and (min-width: 768px) {
     &__card-set {
       display: flex;
       flex-wrap: wrap;
-      margin: -30px;
-  }
-  }
-  @media screen and (min-width: 1200px) {
-    &__card-set {
       margin: -15px;
   }
+  &__worker-card {
+    margin: 15px;
   }
   
-  &__worker-card {
-    box-shadow: var(--box-shadow);
-    border-radius: 0px 0px 4px 4px;
-  }
-
+ 
   @media screen and (min-width: 768px) {
     &__worker-card {
       width: calc((100% - 30px * 2) / 2);
-      margin: 15px;
     }
   }
   
   @media screen and (min-width: 1200px) {
     &__worker-card {
       width: calc((100% - 30px * 4) / 4);
-      margin: 15px;
     }
   }
-  
-  @media screen and (max-width: 767px) {
-    &__worker-card:not(:last-child) {
-      margin-bottom: 30px;
-    }
+
+
+  &__worker-card {
+    box-shadow: var(--box-shadow);
+    border-radius: 0px 0px 4px 4px;
   }
+
   
   &__worker-name {
     margin-bottom: 10px;
