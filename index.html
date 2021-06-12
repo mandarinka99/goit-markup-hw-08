@@ -160,13 +160,26 @@ data-menu-button
           <h2 class="section__title team__title">Наша команда</h2>
           <ul class="team__card-set">
             <li class="team__worker-card">
-              <img
-                src="./images/product_designer.jpg"
-                alt="Фотография Игоря Демьяненко"
-                width="270"
-                height="260"
-                class="worker-foto"
-              />
+
+          <picture class="picture">  
+            <source srcset="./images/our-team/webp/desk-prod-designer.webp 1x , ./images/our-team/webp/desk-prod-designer2x.webp 2x "
+            type="image/webp" media="(min-width: 1200px)" />
+        <source srcset="./images/our-team/jpg/desk-prod-designer.jpg 1x , ./images/our-team/jpg/desk-prod-designer2x.jpg 2x " 
+            type="image/jpeg" media="(min-width: 1200px)" />
+        <source srcset="./images/our-team/webp/tablet-prod-designer.webp 1x , ./images/our-team/webp/tablet-prod-designer2x.webp 2x "
+            type="image/webp" media="(min-width: 768px)" />
+        <source srcset="./images/our-team/jpg/tablet-prod-designer.jpg 1x , ./images/our-team/jpg/tablet-prod-designer2x.jpg 2x "
+            type="image/jpeg" media="(min-width: 768px)" />
+        <source srcset="./images/our-team/webp/mobile-prod-designer.webp 1x , ./images/our-team/webp/mobile-prod-designer2x.webp 2x "
+            type="image/webp" media="(max-width: 767px)" />
+        <source srcset="./images/our-team/jpg/mobile-prod-designer.jpg 1x , ./images/our-team/jpg/mobile-prod-designer2x.jpg 2x "
+            type="image/jpeg" media="(max-width: 767px)" />
+        <img
+            src="./images/our-team/jpg/mobile-prod-designer.jpg"
+            alt="Фотография Игоря Демьяненко"
+            width="450"
+            class="worker-foto"
+          /></picture>
               <div class="team__card-content">
                 <h3 class="team__worker-name">Игорь Демьяненко</h3>
                 <p lang="en" class="team__worker-post">Product Designer</p>
@@ -224,13 +237,26 @@ data-menu-button
               </div>
             </li>
             <li class="team__worker-card">
-              <img
-                src="./images/frontend_developer.jpg"
+              <picture>
+                <source srcset="./images/our-team/webp/desk-front-dev.webp 1x , ./images/our-team/webp/desk-front-dev2x.webp 2x "
+            type="image/webp" media="(min-width: 1200px)" />
+        <source srcset="./images/our-team/jpg/desk-front-dev.jpg 1x , ./images/our-team/jpg/desk-front-dev2x.jpg 2x " 
+            type="image/jpeg" media="(min-width: 1200px)" />
+        <source srcset="./images/our-team/webp/tablet-front-dev.webp 1x , ./images/our-team/webp/tablet-front-dev2x.webp 2x "
+            type="image/webp" media="(min-width: 768px)" />
+        <source srcset="./images/our-team/jpg/tablet-front-dev.jpg 1x , ./images/our-team/jpg/tablet-pfront-dev2x.jpg 2x "
+            type="image/jpeg" media="(min-width: 768px)" />
+        <source srcset="./images/our-team/webp/mobile-front-dev.webp 1x , ./images/our-team/webp/mobile-front-dev2x.webp 2x "
+            type="image/webp" media="(max-width: 767px)" />
+        <source srcset="./images/our-team/jpg/mobile-front-dev.jpg 1x , ./images/our-team/jpg/mobile-front-dev2x.jpg 2x "
+            type="image/jpeg" media="(max-width: 767px)" />
+                <img
+                src="./images/our-team/jpg/mobile-front-dev.jpg"
                 alt="Фотография Ольги Репиной"
-                width="270"
-                height="260"
+                width="450"
+          
                 class="worker-foto"
-              />
+              /></picture>
               <div class="team__card-content">
                 <h3 class="team__worker-name">Ольга Репина</h3>
                 <p lang="en" class="team__worker-post">Frontend Developer</p>
@@ -287,13 +313,25 @@ data-menu-button
               </div>
             </li>
             <li class="team__worker-card">
+             <picture>
+              <source srcset="./images/our-team/webp/desk-marketing.webp 1x , ./images/our-team/webp/desk-marketing2x.webp 2x "
+              type="image/webp" media="(min-width: 1200px)" />
+          <source srcset="./images/our-team/jpg/desk-marketing.jpg 1x , ./images/our-team/jpg/desk-marketing2x.jpg 2x " 
+              type="image/jpeg" media="(min-width: 1200px)" />
+          <source srcset="./images/our-team/webp/tablet-marketing.webp 1x , ./images/our-team/webp/tablet-marketing2x.webp 2x "
+              type="image/webp" media="(min-width: 768px)" />
+          <source srcset="./images/our-team/jpg/tablet-marketing.jpg 1x , ./images/our-team/jpg/tablet-marketing2x.jpg 2x "
+              type="image/jpeg" media="(min-width: 768px)" />
+          <source srcset="./images/our-team/webp/mobile-marketing.webp 1x , ./images/our-team/webp/mobile-marketing2x.webp 2x "
+              type="image/webp" media="(max-width: 767px)" />
+          <source srcset="./images/our-team/jpg/mobile-marketing.jpg 1x , ./images/our-team/jpg/mobile-marketing2x.jpg 2x "
+              type="image/jpeg" media="(max-width: 767px)" />
               <img
-                src="./images/marketing.jpg"
-                alt="Фотография Николая Тарасова"
-                width="270"
-                height="260"
-                class="worker-foto"
-              />
+              src="./images/our-team/jpg/mobile-marketing.jpg"
+              alt="Фотография Николая Тарасова"
+            width="450"
+              class="worker-foto"
+            /></picture>
               <div class="team__card-content">
                 <h3 class="team__worker-name">Николай Тарасов</h3>
                 <p lang="en" class="team__worker-post">Marketing</p>
@@ -350,13 +388,26 @@ data-menu-button
               </div>
             </li>
             <li class="team__worker-card">
-              <img
-                src="./images/ui_designer.jpg"
+              <picture>
+                <source srcset="./images/our-team/webp/desk-ux-designer.webp 1x , ./images/our-team/webp/desk-ux-designer2x.webp 2x "
+              type="image/webp" media="(min-width: 1200px)" />
+          <source srcset="./images/our-team/jpg/desk-ux-designer.jpg 1x , ./images/our-team/jpg/desk-ux-designer2x.jpg 2x " 
+              type="image/jpeg" media="(min-width: 1200px)" />
+          <source srcset="./images/our-team/webp/tablet-ux-designer.webp 1x , ./images/our-team/webp/tablet-ux-designer2x.webp 2x "
+              type="image/webp" media="(min-width: 768px)" />
+          <source srcset="./images/our-team/jpg/tablet-ux-designer.jpg 1x , ./images/our-team/jpg/tablet-ux-designer2x.jpg 2x "
+              type="image/jpeg" media="(min-width: 768px)" />
+          <source srcset="./images/our-team/webp/mobile-ux-designer.webp 1x , ./images/our-team/webp/mobile-ux-designer2x.webp 2x "
+              type="image/webp" media="(max-width: 767px)" />
+          <source srcset="./images/our-team/jpg/mobile-ux-designer.jpg 1x , ./images/our-team/jpg/mobile-ux-designer2x.jpg 2x "
+              type="image/jpeg" media="(max-width: 767px)" />
+                <img
+                src="./images/our-team/jpg/mobile-ux-designer.jpg"
                 alt="Фотография Михаила Ермакова"
-                width="270"
-                height="260"
+                width="450"
+                
                 class="worker-foto"
-              />
+              /></picture>
               <div class="team__card-content">
                 <h3 class="team__worker-name">Михаил Ермаков</h3>
                 <p lang="en" class="team__worker-post">UI Designer</p>
