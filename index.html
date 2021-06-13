@@ -18,28 +18,28 @@
   <body>
     <header class="header">
       <div class="header__navigation container">
-
+        <a href="./index.html" class="logo"
+        ><span class="logo__text">Web</span>Studio</a
+      >
         <button
-type="button"
-class="header__menu-button is-open"
-aria-expanded="false"
-aria-controls="menu-container"
-data-menu-button
->
-<svg
+           type="button"
+           class="header__menu-button is-open"
+           aria-expanded="false"
+           aria-controls="menu-container"
+           data-menu-button
+           >
+            <svg
   width="40"
   height="40"
   aria-label="Переключатель мобильного меню"
 >
-  <use class="header__icon-cross" href="./img/sprite.svg#icon-menu"></use>
-  <use class="header__icon-menu" href="./img/sprite.svg#menu"></use>
-</svg>
-</button>
-<div class="header__menu-container" id="menu-container" data-menu>
-        <nav class="header__site-nav">
-          <a href="./index.html" class="logo"
-            ><span class="logo__text">Web</span>Studio</a
-          >
+  <use class="header__icon-cross" href="./images/icons.svg#icon-close_40px"></use>
+  <use class="header__icon-menu" href="./images/icons.svg#icon-menu_40px"></use>
+            </svg>
+          </button>
+          <div class="header__menu-container" id="menu-container" data-menu>
+          <nav class="header__site-nav">
+          
           <ul class="header__menu">
             <li class="header__menu-item">
               <a href="" class="header__menu-link header__menu-link--current"
@@ -550,7 +550,7 @@ data-menu-button
 
     <footer class="footer">
       <div class="footer__page container">
-        <div class="foter__left-part">
+        <div class="footer__left-part footer__part">
           <a href="./index.html" class="logo footer__logo"
             ><span class="logo__text">Web</span>Studio</a
           >
@@ -572,7 +572,7 @@ data-menu-button
             </ul>
           </div>
         </div>
-        <div class="footer__central-part">
+        <div class="footer__central-part footer__part">
           <p class="footer__join">присоединяйтесь</p>
           <ul class="social-icons">
             <li class="social-icons__list">
@@ -627,7 +627,7 @@ data-menu-button
         </div>
 
         <!-- Footer form -->
-        <form action="" class="footer__form-part">
+        <form action="" class="footer__form-part footer__part">
           <p class="footer__form-title">Подпишитесь на рассылку</p>
           <div class="footer__form">
             <input
@@ -742,7 +742,7 @@ data-menu-button
        
       </div>
     </div>
-    <script src="./js/menu.js"></script>
+    <script src="./js/header-menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>
