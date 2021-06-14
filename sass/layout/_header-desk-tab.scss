@@ -7,11 +7,9 @@
   }
   border-bottom: 1px solid var(--footer-border-color);
 
-
   &__navigation {
     display: flex;
-    align-items: center;
-    
+    align-items: center; 
   }
 
   &__site-nav {
@@ -105,7 +103,6 @@
     @media screen and (min-width: 1200px) {
       justify-content: center;
     }
-    
   }
 
   @media screen and (max-width: 1199px) 

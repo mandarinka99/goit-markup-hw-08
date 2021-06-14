@@ -24,9 +24,9 @@
     width: 100%;
     max-height: 100%;
     overflow: auto;
-    width: 96vw;
+    width: 98vw;
     max-width: 450px;
-    height: 96vh;
+    height: 98vh;
     max-height: 609px;
     padding: 40px;
     background-color: var(--primary-white-color);
@@ -69,9 +69,13 @@
     fill: rgba(0, 0, 0, 1);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-    &:hover,
     &:focus {
     fill: var(--accent-color);
+  }
+  @media screen and (min-width: 1200px) {
+    &:hover {
+      fill: var(--accent-color);
+    }
   }
   }
 }
