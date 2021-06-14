@@ -6,9 +6,14 @@
     margin-bottom: 12px;
     font-weight: 700;
     font-size: 20px;
-    line-height: 1.15;
+    line-height: 1.5;
     text-align: center;
     color: var(--title-text-color);
+  }
+  @media screen and (min-width: 1200px) {
+    &__title {
+      line-height: 1.15;
+    }
   }
 
   &__field {
